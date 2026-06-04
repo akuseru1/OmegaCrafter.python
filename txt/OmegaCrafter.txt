@@ -1,0 +1,279 @@
+==================================================
+  BUILDINGS
+==================================================
+[0552849ffb3a48c294a118b4d7d51208]
+  Uuid: 0552849ffb3a48c294a118b4d7d51208
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -5.351427, 'Y': 15.0, 'Z': 2.55077147}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_001
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '2de845ce71924e6fa930b1958927fda5', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': '6cb6a0896ae34f1ea38492baae79491e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': '173be5c0231a40c9adc826b8b31636fd', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': '24b8f3608a014100a80aa552e8388b2c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '2bd72986252f456ab8c0fd35b2b7b740', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '23ee0d4dc31c4535be04c6c8678b026e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': 'ad093ef16c6f481abafd38195fdf979e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': 'bdde019eed974f459056ebdb4ea7fab0', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '8': {'Uuid': '76576468b2794d578c5e9dec18eeb85b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '9': {'Uuid': '7df330ad1cf540de8f1dacf86b18f464', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '10': {'Uuid': 'c0ac437ec0334088bbe3ae9d658c5021', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '11': {'Uuid': '0a71ea51f62349f1be8531bea6df765b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '12': {'Uuid': 'a2bc911cad9148769146257857e2ef3c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '13': {'Uuid': '0fb9b2c4ecd94cdab5850fd960bdf2c6', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '14': {'Uuid': '7d8bc88db7094d8384121a2700ca89cc', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '15': {'Uuid': 'eca677df5969402c9f685dc9787e1f4c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '16': {'Uuid': 'f085d9ae70414735a02b721ef1d665ef', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '17': {'Uuid': 'b70e50575d6e47828746baac1a9d27ea', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '18': {'Uuid': 'cb5a930d5d2d4dd1af18db7eec9cd13e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '19': {'Uuid': '3e27c8c21f624e23b099a521f408b4de', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '20': {'Uuid': '8c30fcd740304db9801845fc8909edda', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '21': {'Uuid': 'fa677a17687f4c4887d3cb88b8e090f8', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '22': {'Uuid': 'ce33af50e3144aea85059f267a8cd76d', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '23': {'Uuid': '5508fc38cafa49bc859d280da9483d48', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[0a6d15b9c67342d487f51b97ec382f08]
+  Uuid: 0a6d15b9c67342d487f51b97ec382f08
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -19.5232162, 'Y': 17.05, 'Z': -2.48992729}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[1b85176d3d2c493e89e1ebd6fd5d7380]
+  Uuid: 1b85176d3d2c493e89e1ebd6fd5d7380
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -5.379341, 'Y': 15.0, 'Z': 7.50859547}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_005
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[5223c54688854e1dac5d17f7913fe234]
+  Uuid: 5223c54688854e1dac5d17f7913fe234
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -8.117924, 'Y': 14.999999, 'Z': 2.423813}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 樹皮_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '00ae25be948b4d8b9506b6680d60f1d7', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '1': {'Uuid': 'f6aab681080b46cfb035e95a05fa8d9f', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '2': {'Uuid': '012486f602a848c9800ef7d1f72914c5', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '3': {'Uuid': 'e58c001376f245a9a5283143fe8a8f77', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '4': {'Uuid': 'b40dc098d6204d65b85c5d9a3ebbe47c', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '5': {'Uuid': '8d60c077cbcd4d13986a21f2af721a00', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '6': {'Uuid': '7cf147950d49400097cc6bdc4e40373b', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 30}}
+
+[597f5f556a684235b8ed8c820d436ca3]
+  Uuid: 597f5f556a684235b8ed8c820d436ca3
+  ItemType: Building
+  MasterId: 600500015
+  LocalizedName: 簡素な鍋調理台
+  LocalizedDetail: 調理をするための簡単な設備
+  Num: 1
+  Position: {'X': -23.934391, 'Y': 17.05, 'Z': 0.881744}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 簡素な鍋調理台_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'CraftCompleted', 'Message': 'クラフト完成品を取得できます。'}
+  SelectedRecipeId: 550002001
+  CraftOutputItemUuid: 81c367b4e5bc4ab4b55e0c75e3cc9faf
+
+[5b08e826d2e548a6ada40dec3f728023]
+  Uuid: 5b08e826d2e548a6ada40dec3f728023
+  ItemType: Building
+  MasterId: 609509901
+  LocalizedName: 転送ポッド
+  LocalizedDetail: この世界にダイブするための施設
+  Num: 1
+  Position: {'X': -10.5447178, 'Y': 15.0, 'Z': 6.01535}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 転送ポッド
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
+[5e9b64700b8349bab7aaa1ccacf5c05a]
+  Uuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  ItemType: Building
+  MasterId: 600100001
+  LocalizedName: 街のシンボル
+  LocalizedDetail: 街のシンボルとなる建築物で、街を作り始めるのに必要
+  Num: 1
+  Position: {'X': -8.0, 'Y': 15.0, 'Z': 6.0}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: けん玉次郎初の街
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[6175d9eca56a476c9dd6e0677b9423ba]
+  Uuid: 6175d9eca56a476c9dd6e0677b9423ba
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -8.336414, 'Y': 15.0, 'Z': -20.6225128}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[876c44a1fffd46ffbb0863c46d90da2a]
+  Uuid: 876c44a1fffd46ffbb0863c46d90da2a
+  ItemType: Building
+  MasterId: 601200001
+  LocalizedName: データアナライザー
+  LocalizedDetail: アイテムを解析することでこの世界の情報を集めることができる装置
+  Num: 1
+  Position: {'X': -21.5606327, 'Y': 17.05, 'Z': 2.897633}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: データアナライザー_001
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[8ec1f500052e4c76b6b1edb1a06ccf49]
+  Uuid: 8ec1f500052e4c76b6b1edb1a06ccf49
+  ItemType: Building
+  MasterId: 600500003
+  LocalizedName: 加工台
+  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
+  Num: 1
+  Position: {'X': -24.4062519, 'Y': 17.05, 'Z': -10.1243649}
+  Rotation: {'X': 0.0, 'Y': 45.0000038, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 加工台_005
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
+  SelectedRecipeId: 358100101
+  CraftOutputItemUuid: 
+
+[9499f6ba35eb449ea9b5efb48a1dec40]
+  Uuid: 9499f6ba35eb449ea9b5efb48a1dec40
+  ItemType: Building
+  MasterId: 609502203
+  LocalizedName: 木のドア(大)
+  LocalizedDetail: 建物の入口に取り付ける木の扉
+  Num: 1
+  Position: {'X': -3.35299683, 'Y': 15.0, 'Z': -3.71172142}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木のドア(大)_001
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[9a6580e8c25e4e6d8c493956f17ce7c0]
+  Uuid: 9a6580e8c25e4e6d8c493956f17ce7c0
+  ItemType: Building
+  MasterId: 600500003
+  LocalizedName: 加工台
+  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
+  Num: 1
+  Position: {'X': -18.575098, 'Y': 17.05, 'Z': 2.77754068}
+  Rotation: {'X': 0.0, 'Y': 135.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 加工台_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'GrammiCrafting', 'Message': 'グラミーによりクラフト中です。'}
+  SelectedRecipeId: 250200001
+  CraftOutputItemUuid: None
+
+[a57f795b2e8f42e994a57738c271425d]
+  Uuid: a57f795b2e8f42e994a57738c271425d
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 4.42652464, 'Y': 15.0, 'Z': -15.9276352}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[c1cf62021f194c5aab7dcccf13d6949e]
+  Uuid: c1cf62021f194c5aab7dcccf13d6949e
+  ItemType: Building
+  MasterId: 600500003
+  LocalizedName: 加工台
+  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
+  Num: 1
+  Position: {'X': -18.05652, 'Y': 17.05, 'Z': -6.42216873}
+  Rotation: {'X': 0.0, 'Y': 315.000031, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 加工台_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'GrammiCrafting', 'Message': 'グラミーによりクラフト中です。'}
+  SelectedRecipeId: 250200001
+  CraftOutputItemUuid: None
+
+[c5a8dae10d674424aa02e39deccfac24]
+  Uuid: c5a8dae10d674424aa02e39deccfac24
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -6.830305, 'Y': 15.0, 'Z': 2.40353584}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_1
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '1ccad5ccfd75429886bbef613f127e2b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': 'fa3123224daf49c2a3e8942b8a1e9c9b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': '012ed7e4a74b4c04b330ca346b6e46ab', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': 'd9e6500ef3d94eb7957daa3ca91ae815', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '16dd14637b454eed96c7d5d2e1484bf1', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '7d1ce170ac934ef58e9b24d42c48a452', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': 'd871c31343544f21a0d4025dcf406bc6', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': '28b2aa3da43e407fadaa44fb004ed7f0', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '8': {'Uuid': 'e07d3adf86f84536ad05f4f5b937a957', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '9': {'Uuid': '75473300bcaa4e1ab5df040e25234b03', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '10': {'Uuid': 'f1ea79d872bd42d78eb3b5ea6c2968bc', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '11': {'Uuid': '68fc76ed815b49bbbf8d4bc5c2e6689a', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '12': {'Uuid': '2a44c9a78f4c411294dc276cf776b79c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '13': {'Uuid': 'c6734bf57b4c41d1a4d83ec2e6093208', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 48}, '23': {'Uuid': '8a7dda29000d4108adf24410ad908674', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[d1788b1be4344e0c8bc808eef5a9771e]
+  Uuid: d1788b1be4344e0c8bc808eef5a9771e
+  ItemType: Building
+  MasterId: 600500001
+  LocalizedName: 作業台
+  LocalizedDetail: 装備の作成をするのに必要な基本的な台
+  Num: 1
+  Position: {'X': -24.4714069, 'Y': 17.05, 'Z': -6.04381466}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 作業台_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
+  SelectedRecipeId: 350600101
+  CraftOutputItemUuid: None
+
+[d7a66c554c464a46a5fee6efde911b8a]
+  Uuid: d7a66c554c464a46a5fee6efde911b8a
+  ItemType: Building
+  MasterId: 600500003
+  LocalizedName: 加工台
+  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
+  Num: 1
+  Position: {'X': -24.2257137, 'Y': 17.05, 'Z': -2.54454279}
+  Rotation: {'X': 0.0, 'Y': 45.0000038, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 加工台_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
+  SelectedRecipeId: 250200001
+  CraftOutputItemUuid: None
+
+[d7b4f2c53fd24af2bf64723993bb7af5]
+  Uuid: d7b4f2c53fd24af2bf64723993bb7af5
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -9.534519, 'Y': 15.0, 'Z': 2.392099}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: シングルコンテナ_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
+[ebbe5d579efd4913ae40bbb14b116387]
+  Uuid: ebbe5d579efd4913ae40bbb14b116387
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -7.78074265, 'Y': 15.0, 'Z': -6.71812439}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_001
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+==================================================
+  GRAMMI
+==================================================
+  （アイテムなし）
+
+最終更新: 2026-06-04 18:09:27

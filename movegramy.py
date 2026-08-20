@@ -1,12 +1,13 @@
-import requests
-
-# Default local game address (ensure your port matches the active game settings)
-BASE_URL = "http://localhost:64123" 
 
 def get_player_position():
+    import requests
+
+    # Default local game address (ensure your port matches the active game settings)
+    BASE_URL = "http://localhost:64123" 
+    
     try:
         # Fetch data from the game's environment endpoint
-        data = {"grammiUuid":"5b1d618dfc304ea0adef1cb59fadebbf", "text":"リッキー先生超かっこいい", "timeOut": 60}
+        data = {"grammiUuid":"21fe121575c44008aa992403ddb8d192", "text":"リッキー先生超かっこいい", "timeOut": 60}
         response = requests.post(f"{BASE_URL}/grammi/say", json=data)
         if response.status_code == 200:
             position_data = response.json()

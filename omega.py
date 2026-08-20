@@ -2,10 +2,20 @@ import requests
 import json
 import time
 import os
+import threading
 from dotenv import load_dotenv
-load_dotenv()
 
-port=os.getenv("PORT")
+# prompt_toolkit を使ってターミナルのキー入力を監視する
+from prompt_toolkit.application import Application
+from prompt_toolkit.key_binding import KeyBindings
+from prompt_toolkit.layout import Layout
+from prompt_toolkit.layout.containers import HSplit, Window
+from prompt_toolkit.layout.controls import FormattedTextControl
+
+# movegramy の関数をインポート（同じディレクトリに movegramy.py があること）
+from movegramy import get_player_position
+
+port = os.getenv("PORT")
 BASE_URL   = port
 INTERVAL   = 3         # 確認間隔（秒）
 OUTPUT_TXT = "txt/OmegaCrafter.txt"  # 書き込み先テキストファイル
@@ -15,11 +25,9 @@ OUTPUT_TXT = "txt/OmegaCrafter.txt"  # 書き込み先テキストファイル
 # ------------------------------------------------
 def fetch(path, params=None):
     try:
-        # print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-        # print(f"{BASE_URL}{path}")
         resp = requests.get(f"{BASE_URL}{path}", params=params, timeout=2)
         return resp.json()
-    except Exception as e:
+    except Exception:
         return None
 
 def fetch_city_list():
@@ -91,6 +99,11 @@ def write_txt(buildings: dict, grammi: dict):
 
     lines.append(f"最終更新: {time.strftime('%Y-%m-%d %H:%M:%S')}")
 
+    # 出力先フォルダがなければ作成
+    out_dir = os.path.dirname(OUTPUT_TXT)
+    if out_dir and not os.path.exists(out_dir):
+        os.makedirs(out_dir, exist_ok=True)
+
     with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
@@ -123,14 +136,61 @@ def diff(old: dict, new: dict):
     return added, removed, changed
 
 # ------------------------------------------------
+# prompt_toolkit を使ったキー監視（Shift+Enter と 'g' の両方をトリガー）
+# ------------------------------------------------
+def start_key_listener():
+    """
+    prompt_toolkit の Application を作成して run() します。
+    run() はブロッキングなので別スレッドで起動することを想定しています。
+    Shift+Enter の捕捉は端末に依存するため、念のため 'g' キーもトリガーとして追加しています。
+    """
+    kb = KeyBindings()
+
+    # @kb.add('s-enter')
+    # def _(event):
+    #     # Shift+Enter 検出時に movegramy.get_player_position を別スレッドで呼び出す
+    #     print("[キー] Shift+Enter を検出しました。get_player_position を呼び出します。")
+    #     threading.Thread(target=get_player_position, daemon=True).start()
+
+    @kb.add('g')
+    def _(event):
+        # 代替トリガー（端末が Shift+Enter を送らない場合の保険）
+        print("[キー] 'g' を検出しました。get_player_position を呼び出します。")
+        threading.Thread(target=get_player_position, daemon=True).start()
+
+    # 画面に簡単なヘルプを表示するためのレイアウト（必須ではないが視認性向上）
+    help_text = [
+        ("class:title", "Omega Monitor キーリスナー\n"),
+        ("", "  - Shift+Enter : movegramy.get_player_position を呼び出す（端末により動作しない場合あり）\n"),
+        ("", "  - g           : 上と同等の代替トリガー\n"),
+        ("", "  - Ctrl+C      : プログラム終了\n"),
+    ]
+    root_container = HSplit([
+        Window(content=FormattedTextControl(help_text), height=6, wrap_lines=True),
+    ])
+    layout = Layout(root_container)
+
+    app = Application(layout=layout, key_bindings=kb, full_screen=False)
+    try:
+        app.run()
+    except Exception as e:
+        # キーリスナーが予期せず止まった場合のログ
+        print(f"[キーリスナー] 実行中に例外が発生しました: {e}")
+
+# ------------------------------------------------
 # メイン
 # ------------------------------------------------
 def main():
     print("=== Omega Monitor 起動 ===")
     print(f"  確認間隔    : {INTERVAL}秒")
     print(f"  出力ファイル: {OUTPUT_TXT}")
+    print("  Shift+Enter または 'g' で movegramy.get_player_position を呼び出します。")
     print("  Ctrl+C で停止\n")
     time.sleep(1)
+
+    # キー監視を別スレッドで開始（daemon にしてメイン終了時に自動終了）
+    key_thread = threading.Thread(target=start_key_listener, daemon=True)
+    key_thread.start()
 
     # 初回 UUID 取得
     cities = fetch_city_list()
@@ -174,6 +234,10 @@ def main():
         except KeyboardInterrupt:
             print("\n\n監視を停止しました。")
             break
+        except Exception as e:
+            # 例外発生時はログを表示して短時間待って再試行
+            print(f"[エラー] ループ内で例外が発生しました: {e}")
+            time.sleep(1)
 
 if __name__ == "__main__":
     main()

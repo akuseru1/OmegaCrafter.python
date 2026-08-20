@@ -1,32 +1,172 @@
 ==================================================
   BUILDINGS
 ==================================================
-[0552849ffb3a48c294a118b4d7d51208]
-  Uuid: 0552849ffb3a48c294a118b4d7d51208
+[00510365c291489a99cc35d11793c422]
+  Uuid: 00510365c291489a99cc35d11793c422
   ItemType: Building
-  MasterId: 601000002
-  LocalizedName: シングルコンテナ
-  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  MasterId: 601000013
+  LocalizedName: マルチチェスト(赤)
+  LocalizedDetail: 複数種類のアイテムを保管できるチェスト。グラミーは先頭のものから取り出す。
   Num: 1
-  Position: {'X': -5.351427, 'Y': 15.0, 'Z': 2.55077147}
-  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  Position: {'X': -13.6932535, 'Y': 7.05, 'Z': -60.3560524}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: 木材_001
+  DisplayName: マルチチェスト(赤)_001
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {'0': {'Uuid': '2de845ce71924e6fa930b1958927fda5', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': '6cb6a0896ae34f1ea38492baae79491e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': '173be5c0231a40c9adc826b8b31636fd', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': '24b8f3608a014100a80aa552e8388b2c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '2bd72986252f456ab8c0fd35b2b7b740', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '23ee0d4dc31c4535be04c6c8678b026e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': 'ad093ef16c6f481abafd38195fdf979e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': 'bdde019eed974f459056ebdb4ea7fab0', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '8': {'Uuid': '76576468b2794d578c5e9dec18eeb85b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '9': {'Uuid': '7df330ad1cf540de8f1dacf86b18f464', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '10': {'Uuid': 'c0ac437ec0334088bbe3ae9d658c5021', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '11': {'Uuid': '0a71ea51f62349f1be8531bea6df765b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '12': {'Uuid': 'a2bc911cad9148769146257857e2ef3c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '13': {'Uuid': '0fb9b2c4ecd94cdab5850fd960bdf2c6', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '14': {'Uuid': '7d8bc88db7094d8384121a2700ca89cc', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '15': {'Uuid': 'eca677df5969402c9f685dc9787e1f4c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '16': {'Uuid': 'f085d9ae70414735a02b721ef1d665ef', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '17': {'Uuid': 'b70e50575d6e47828746baac1a9d27ea', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '18': {'Uuid': 'cb5a930d5d2d4dd1af18db7eec9cd13e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '19': {'Uuid': '3e27c8c21f624e23b099a521f408b4de', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '20': {'Uuid': '8c30fcd740304db9801845fc8909edda', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '21': {'Uuid': 'fa677a17687f4c4887d3cb88b8e090f8', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '22': {'Uuid': 'ce33af50e3144aea85059f267a8cd76d', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '23': {'Uuid': '5508fc38cafa49bc859d280da9483d48', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+  InventoryItems: {'0': {'Uuid': '556b79dd3f924c97ac28a3bbc64a48cb', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '1': {'Uuid': 'f7ea67e31e094244ac709b6fb41b5fe7', 'ItemType': 'Food', 'MasterId': 500011002, 'LocalizedName': 'トビウオ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 83}, '2': {'Uuid': '1cbffcc17bc5420097b49a77bb79ff42', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 32}, '3': {'Uuid': '399cb6db853c4657bd87108058e401ce', 'ItemType': 'RawMaterial', 'MasterId': 200600001, 'LocalizedName': '石', 'LocalizedDetail': 'ただの石ころ', 'Num': 7}, '4': {'Uuid': 'ff71b411938b441d845180227468b243', 'ItemType': 'RawMaterial', 'MasterId': 201100003, 'LocalizedName': '木のタネ', 'LocalizedDetail': '木を育てることができる種', 'Num': 4}, '5': {'Uuid': '3b894b62cddc47029f65a7fcb66096e9', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 10}}
 
-[0a6d15b9c67342d487f51b97ec382f08]
-  Uuid: 0a6d15b9c67342d487f51b97ec382f08
+[06092272d3cf47bcb7697f600d8301a8]
+  Uuid: 06092272d3cf47bcb7697f600d8301a8
   ItemType: Building
   MasterId: 609501401
   LocalizedName: トーチ
   LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
   Num: 1
-  Position: {'X': -19.5232162, 'Y': 17.05, 'Z': -2.48992729}
+  Position: {'X': 19.0871181, 'Y': 21.05, 'Z': -9.404819}
   Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: トーチ_002
+  DisplayName: トーチ_038
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[0994017c50ba4f6d8232fc6b6d5a3fdd]
+  Uuid: 0994017c50ba4f6d8232fc6b6d5a3fdd
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_015
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'a5b136cd9cd64b839d552a417ff43292', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '1': {'Uuid': 'ecfb094272d04fc9b63dad8041250923', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '2': {'Uuid': '7797c19541ae4e43ab25be150dce3f8a', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '3': {'Uuid': 'df48010349504d13947f6a3342f49151', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '4': {'Uuid': 'f52d55eafcfc4ad3ac21653b71159de4', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '5': {'Uuid': '14c61b8da65d4982a5f9e54cd5bf7983', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '6': {'Uuid': '17048c6a62cd491580bd1f93b34be4b3', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '7': {'Uuid': 'a0dd89d24ee845ebafc9773fc84dc6d4', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '8': {'Uuid': 'eee017a82fbd44ec804331b149fe3c0a', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '9': {'Uuid': 'c0df147234e0415da96a5ee65e385a09', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '10': {'Uuid': '1806f009f8a4496a8399651bec8c8331', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '11': {'Uuid': 'e46e17fc551e43008d801e4657c1e28c', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '12': {'Uuid': '42cb14f3519641ea80dd6c77452c119e', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '13': {'Uuid': 'a909038d15a245c6808a3be420689eeb', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '20': {'Uuid': '9a0ffe3ce6b847f39c1bfecff279c8c3', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 489}}
+
+[0d5f914482fd40fc9389cc6ba63ad97e]
+  Uuid: 0d5f914482fd40fc9389cc6ba63ad97e
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_020
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'f739aac2c15b4198a8867543875da4a7', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[0eb6c47962e045d58e4bf9fc20ad3444]
+  Uuid: 0eb6c47962e045d58e4bf9fc20ad3444
+  ItemType: Building
+  MasterId: 601000013
+  LocalizedName: マルチチェスト(赤)
+  LocalizedDetail: 複数種類のアイテムを保管できるチェスト。グラミーは先頭のものから取り出す。
+  Num: 1
+  Position: {'X': -13.7859564, 'Y': 8.05, 'Z': -60.51701}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: マルチチェスト(赤)_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
+[109b5598db454981998a577363aaf7b1]
+  Uuid: 109b5598db454981998a577363aaf7b1
+  ItemType: Building
+  MasterId: 609503205
+  LocalizedName: 灯籠1
+  LocalizedDetail: 周囲を照らす灯具
+  Num: 1
+  Position: {'X': -17.66102, 'Y': 9.0, 'Z': -9.612427}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 灯籠1_015
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[12e57dc5db4946f4ae11a8fbbb8d550e]
+  Uuid: 12e57dc5db4946f4ae11a8fbbb8d550e
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -3.207655, 'Y': 9.0, 'Z': -18.8550949}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_021
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[13492389075a45ff8fb93012c46d712d]
+  Uuid: 13492389075a45ff8fb93012c46d712d
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 4.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_081
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '016582527ce84a9bb1623dfe9bf358bc', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '1': {'Uuid': '707c8158372a4c7f88e11a1586fa407f', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '2': {'Uuid': '4ad6de800e0340008c60f8c6d09e11d8', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '3': {'Uuid': '31fce6c4c6bf45c79376127d303bc109', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '4': {'Uuid': '82836881828b44dfb0b0eccc396b4827', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '5': {'Uuid': '6b2ffac512274e2691d7bfae99e0afdd', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '6': {'Uuid': 'cd6c4e3ebd8842568e6412028bfac396', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '7': {'Uuid': '4a18ad41aacf4174a2acca24249a0e71', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 66}}
+
+[14a16f575dbf4a678b54637919b35657]
+  Uuid: 14a16f575dbf4a678b54637919b35657
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_044
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'cdba99d8b2654746917a650c3e3e64fa', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 100}}
+
+[14e63ab19597499cb415cac1f335b091]
+  Uuid: 14e63ab19597499cb415cac1f335b091
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_067
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'a907700c452446c28359691a4e62286f', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[194b54590e594388991fa4dd5ac56c56]
+  Uuid: 194b54590e594388991fa4dd5ac56c56
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_076
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'f5bffd6241cc48e4a743088d089b24b7', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[1af8ba6f67d24ff8bffe8cf2ec04a0c5]
+  Uuid: 1af8ba6f67d24ff8bffe8cf2ec04a0c5
+  ItemType: Building
+  MasterId: 600500034
+  LocalizedName: オメガ鉱山
+  LocalizedDetail: オメガ鉱石を採掘できる鉱山。放置していると不思議な力でオメガ鉱石が生成される。
+  Num: 1
+  Position: {'X': 20.3623524, 'Y': 23.05, 'Z': 8.104137}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱山_031
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'AutoCrafting', 'Message': '自動クラフトが進行中です。'}
+  SelectedRecipeId: 152000005
+  CraftOutputItemUuid: None
 
 [1b85176d3d2c493e89e1ebd6fd5d7380]
   Uuid: 1b85176d3d2c493e89e1ebd6fd5d7380
@@ -41,6 +181,420 @@
   DisplayName: トーチ_005
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
 
+[1cdd33d241a34dc68d721da223c11b49]
+  Uuid: 1cdd33d241a34dc68d721da223c11b49
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_075
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '19d4a377e5ef4ca784e605148a1f2bdc', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[1f7b56dd9ac1405f8c95abbf1c01bfa7]
+  Uuid: 1f7b56dd9ac1405f8c95abbf1c01bfa7
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_019
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '3a85b9ba8ccb41a08c530fa05763637d', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[20fb85c8b47b48b2b7588cd81e51405c]
+  Uuid: 20fb85c8b47b48b2b7588cd81e51405c
+  ItemType: Building
+  MasterId: 609503904
+  LocalizedName: 壁掛け文字列ボード
+  LocalizedDetail: 壁に掛けて文字を表示できる文字列ボード
+  Num: 1
+  Position: {'X': -14.7649164, 'Y': 19.2023468, 'Z': -17.1027622}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 壁掛け文字列ボード_013
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[2630805163c34e05a728286bfd8000eb]
+  Uuid: 2630805163c34e05a728286bfd8000eb
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_046
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'ae6c04d931bd429caaf06c43f53b5271', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 100}}
+
+[26fd263478d24e94a67560014f037c98]
+  Uuid: 26fd263478d24e94a67560014f037c98
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_038
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '444c0b9b0aeb49ad981cba3a5753ed14', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[295026b50547457cbfbe2038f36bd7e7]
+  Uuid: 295026b50547457cbfbe2038f36bd7e7
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_023
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '57dd97ccc529497a9076df959b952368', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '1': {'Uuid': 'a3dbcfe9cd954a6880f20ba2ceb5bde9', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '2': {'Uuid': '6f7b76e74400488599eabaf2a5be0c6e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '3': {'Uuid': 'd8e99e1d32f2487ca973ee666731f719', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '4': {'Uuid': '09cacc8eea36488895d8f0cc1042af23', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '5': {'Uuid': 'b29ec6a9320648a5ad00b3f8d87fd9bf', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '6': {'Uuid': '76f3a4077a174c488cf8b45dcd516f02', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '7': {'Uuid': '5b8f2899343b4f1b85c93471e69da74e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '8': {'Uuid': 'c50a7238987a4233a3c8c537b3d8c4aa', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[29ca1ed1f916473b966875452f90fda5]
+  Uuid: 29ca1ed1f916473b966875452f90fda5
+  ItemType: Building
+  MasterId: 609504301
+  LocalizedName: まとめて採掘指示棒
+  LocalizedDetail: プログラムから指定すると、グラミーが範囲内の鉱山をまとめて採掘してくれるようになる
+  Num: 1
+  Position: {'X': 23.37763, 'Y': 23.05, 'Z': 4.94712448}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: まとめて採掘指示棒_011
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[2b40cb1efe43499fb4c2e8dcdae38a95]
+  Uuid: 2b40cb1efe43499fb4c2e8dcdae38a95
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -11.3597736, 'Y': 7.05, 'Z': -53.63132}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_051
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[2e2f0278d732434190eda77398b3bb82]
+  Uuid: 2e2f0278d732434190eda77398b3bb82
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -3.28523922, 'Y': 9.026231, 'Z': -9.050018}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_022
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[2fb2d4645d5a4d9690a38a4a79d8a4aa]
+  Uuid: 2fb2d4645d5a4d9690a38a4a79d8a4aa
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 9.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_089
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '3750c384b5dd4614990d0f25fb5f054f', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[315ddf2781d64007a286b442283af438]
+  Uuid: 315ddf2781d64007a286b442283af438
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_034
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '9aa0ffa828ba42a7844a3bf67a4fe2e7', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[31e5357216b54b44a91d7977b2163a82]
+  Uuid: 31e5357216b54b44a91d7977b2163a82
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -10.7886353, 'Y': 15.0, 'Z': 2.29731369}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 銅鉱石_009
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '23e1987f28584bd7ad4d1a6c25db295f', 'ItemType': 'RawMaterial', 'MasterId': 200600002, 'LocalizedName': '銅鉱石', 'LocalizedDetail': '未加工の銅のかたまり', 'Num': 57}}
+
+[333a0db070994d66b473dfc0b28298d8]
+  Uuid: 333a0db070994d66b473dfc0b28298d8
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_042
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'b3744135839b4297be8181d5d6758f97', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '1': {'Uuid': '5cc9a551b1c1457f867c51af3af925f0', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 40}}
+
+[3916e3fcf156491d9c4092886d1303d3]
+  Uuid: 3916e3fcf156491d9c4092886d1303d3
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_071
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'd4df3911037b413cb649042082b6a0c8', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[3928f7511b8540dd891cd795569850f8]
+  Uuid: 3928f7511b8540dd891cd795569850f8
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_080
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '8bb18a432c8a4d9fb5a8ea886871020e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 72}, '1': {'Uuid': '5c714567091c4a9ba5d3991af96122c6', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 1}}
+
+[3d28bda8e6c44901a7c3cc11d53b8818]
+  Uuid: 3d28bda8e6c44901a7c3cc11d53b8818
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_077
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '4d4f35cb6ed447dc8feaedced9883f76', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[3da7ee4846834fd99dea18d5d3a7cf31]
+  Uuid: 3da7ee4846834fd99dea18d5d3a7cf31
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_039
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '21bf6f4736994cfe829f861d927673f2', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[3df07a00be404744a414e46febf7ecb5]
+  Uuid: 3df07a00be404744a414e46febf7ecb5
+  ItemType: Building
+  MasterId: 609502201
+  LocalizedName: 木のドア
+  LocalizedDetail: 建物の入口に取り付ける木の扉
+  Num: 1
+  Position: {'X': 2.68546438, 'Y': 23.0, 'Z': 2.920452}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木のドア_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[3e0eef616e514958b8799f3808b7b90d]
+  Uuid: 3e0eef616e514958b8799f3808b7b90d
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_064
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '0c6c0f37d0554fdd86f006e4e4b56a03', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[40afddb1c62d4f16a7968c26e4addb9f]
+  Uuid: 40afddb1c62d4f16a7968c26e4addb9f
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_074
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '1c3c202c27564a819778a32109294dc1', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': 'debbd2e9eab943248767c10af383584b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 25}}
+
+[45bfc26d99c643b2b5b7aa854d190057]
+  Uuid: 45bfc26d99c643b2b5b7aa854d190057
+  ItemType: Building
+  MasterId: 600500034
+  LocalizedName: オメガ鉱山
+  LocalizedDetail: オメガ鉱石を採掘できる鉱山。放置していると不思議な力でオメガ鉱石が生成される。
+  Num: 1
+  Position: {'X': 20.3133621, 'Y': 23.05, 'Z': 4.808513}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱山_029
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'AutoCrafting', 'Message': '自動クラフトが進行中です。'}
+  SelectedRecipeId: 152000005
+  CraftOutputItemUuid: None
+
+[476d2a700e7744a083db5c0b47aab649]
+  Uuid: 476d2a700e7744a083db5c0b47aab649
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 11.3944778}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_088
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '7c4014b92d8f4f089c1a1589c56e5cba', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[480e9ccc362c4cdaa7314cfdc0de3ae4]
+  Uuid: 480e9ccc362c4cdaa7314cfdc0de3ae4
+  ItemType: Building
+  MasterId: 609503903
+  LocalizedName: 文字列ボード
+  LocalizedDetail: 文字を表示できる文字列ボード
+  Num: 1
+  Position: {'X': -21.4523144, 'Y': 19.0, 'Z': -3.01983142}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 文字列ボード_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[491a9b6b48944cb6a9a8903d78ff2bc4]
+  Uuid: 491a9b6b48944cb6a9a8903d78ff2bc4
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': 6.548964, 'Y': 28.95, 'Z': 5.817953}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[4b2437ee478b43b48522ae3bdc2ee59c]
+  Uuid: 4b2437ee478b43b48522ae3bdc2ee59c
+  ItemType: Building
+  MasterId: 600500034
+  LocalizedName: オメガ鉱山
+  LocalizedDetail: オメガ鉱石を採掘できる鉱山。放置していると不思議な力でオメガ鉱石が生成される。
+  Num: 1
+  Position: {'X': 20.3473053, 'Y': 23.05, 'Z': 1.597621}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱山_030
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  CraftState: {'State': 'AutoCrafting', 'Message': '自動クラフトが進行中です。'}
+  SelectedRecipeId: 152000005
+  CraftOutputItemUuid: None
+
+[4b588f945f0b4d69aed40088d888c75f]
+  Uuid: 4b588f945f0b4d69aed40088d888c75f
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 11.0293427, 'Y': 21.05, 'Z': -9.00794}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_036
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[4be508784872436a8fc3aa9d2c2683fe]
+  Uuid: 4be508784872436a8fc3aa9d2c2683fe
+  ItemType: Building
+  MasterId: 609502201
+  LocalizedName: 木のドア
+  LocalizedDetail: 建物の入口に取り付ける木の扉
+  Num: 1
+  Position: {'X': -14.8399162, 'Y': 16.0062313, 'Z': -17.2238216}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木のドア_005
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[4cd7e6bb86764962b7ae3301f4765a86]
+  Uuid: 4cd7e6bb86764962b7ae3301f4765a86
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -8.875551, 'Y': 9.025, 'Z': -11.0093708}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_023
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[4f71fbf92b8e46ecb253f86f09680831]
+  Uuid: 4f71fbf92b8e46ecb253f86f09680831
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_069
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '3fec65d0aa0245dda8eafe7bac712c22', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': '7ae37e8725fc4b29aa835110d7d75e1a', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': 'a7021c806ac54bc68a134c3016a1e48c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': 'd4e41b45268049f9a902cd5308533d8e', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '4b37c84442d44537a111d37a5978d26a', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '24015796fa3d420f9ef1b1707b54d9b8', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': '695eeccf73ae41da8245d11c5a87c8e4', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': 'bf809de07afe438a89680cddb4c32d22', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[503a52b749174cfa9383efd5023ecf42]
+  Uuid: 503a52b749174cfa9383efd5023ecf42
+  ItemType: Building
+  MasterId: 601000013
+  LocalizedName: マルチチェスト(赤)
+  LocalizedDetail: 複数種類のアイテムを保管できるチェスト。グラミーは先頭のものから取り出す。
+  Num: 1
+  Position: {'X': -13.6852, 'Y': 7.05, 'Z': -61.92523}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: マルチチェスト(赤)_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
 [5223c54688854e1dac5d17f7913fe234]
   Uuid: 5223c54688854e1dac5d17f7913fe234
   ItemType: Building
@@ -53,23 +607,102 @@
   IsAbsorbable: False
   DisplayName: 樹皮_003
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {'0': {'Uuid': '00ae25be948b4d8b9506b6680d60f1d7', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '1': {'Uuid': 'f6aab681080b46cfb035e95a05fa8d9f', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '2': {'Uuid': '012486f602a848c9800ef7d1f72914c5', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '3': {'Uuid': 'e58c001376f245a9a5283143fe8a8f77', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '4': {'Uuid': 'b40dc098d6204d65b85c5d9a3ebbe47c', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '5': {'Uuid': '8d60c077cbcd4d13986a21f2af721a00', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '6': {'Uuid': '7cf147950d49400097cc6bdc4e40373b', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 30}}
+  InventoryItems: {'0': {'Uuid': '9d2badd577e044ec994ba168c6454766', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 67}, '1': {'Uuid': 'f6aab681080b46cfb035e95a05fa8d9f', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '2': {'Uuid': '6488851e30ba4ae6bc1c9a1d8857ad55', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '3': {'Uuid': 'e58c001376f245a9a5283143fe8a8f77', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '4': {'Uuid': 'b40dc098d6204d65b85c5d9a3ebbe47c', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '5': {'Uuid': '8d60c077cbcd4d13986a21f2af721a00', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '6': {'Uuid': '7cf147950d49400097cc6bdc4e40373b', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '7': {'Uuid': 'e24879697b664455a805a7ad54e7e2cf', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '8': {'Uuid': 'b649e6721c254954bef28d81ada16a10', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '9': {'Uuid': 'de8a4ee4d658448f88c062595cb261af', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '10': {'Uuid': '96e4924208294faf87cf689668e21a95', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '11': {'Uuid': '9aa6f0eec5a445439eda4199b53eddcd', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '12': {'Uuid': '77cc80e24b094c24b5efa1a8802caa44', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '13': {'Uuid': 'c742784040374da5b0d5ed111c991f1f', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '14': {'Uuid': '912d5923ba0146c194a6b51fbe324841', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '15': {'Uuid': 'f478f701c5804b099251396e6788d39f', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '16': {'Uuid': 'b2ce3e3ac2664cefa88f50b3802279dd', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '17': {'Uuid': 'f903831295aa40868832400b57573146', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '18': {'Uuid': '6418b059e85c4960bcf8d50651e44023', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '19': {'Uuid': '20934b056aa44201bf1d459786f3a042', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '20': {'Uuid': '51236f06002449bba3815ed280fb577c', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '21': {'Uuid': 'a2e29d314055484187531cfa4d77b878', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '22': {'Uuid': 'b22acf30b06d46d5a06b61fdfcf697d9', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}, '23': {'Uuid': 'b0dc4950beb8447c94ed69fcb2bf8727', 'ItemType': 'RawMaterial', 'MasterId': 200200001, 'LocalizedName': '樹皮', 'LocalizedDetail': '木材を加工して得られる素材', 'Num': 100}}
 
-[597f5f556a684235b8ed8c820d436ca3]
-  Uuid: 597f5f556a684235b8ed8c820d436ca3
+[52dad0a550d74adf9eff33cca08cfc27]
+  Uuid: 52dad0a550d74adf9eff33cca08cfc27
   ItemType: Building
-  MasterId: 600500015
-  LocalizedName: 簡素な鍋調理台
-  LocalizedDetail: 調理をするための簡単な設備
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
   Num: 1
-  Position: {'X': -23.934391, 'Y': 17.05, 'Z': 0.881744}
+  Position: {'X': -20.55172, 'Y': 12.7956438, 'Z': -15.8961754}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[53439f6347174245a453f48a20cb3ce4]
+  Uuid: 53439f6347174245a453f48a20cb3ce4
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -4.970421}
   Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: 簡素な鍋調理台_002
+  DisplayName: バグのかけら_035
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'CraftCompleted', 'Message': 'クラフト完成品を取得できます。'}
-  SelectedRecipeId: 550002001
-  CraftOutputItemUuid: 81c367b4e5bc4ab4b55e0c75e3cc9faf
+  InventoryItems: {'0': {'Uuid': '9b31e961238b49eea0438f1ef3975826', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[546f00c2ab824366b48c301720b24358]
+  Uuid: 546f00c2ab824366b48c301720b24358
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': -12.0970688, 'Y': 15.0, 'Z': 2.28077555}
+  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: シングルコンテナ_010
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
+[56da791796bd4b76a53b73a7a0260a05]
+  Uuid: 56da791796bd4b76a53b73a7a0260a05
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_073
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '81142c0be2db434b80abfc5aa4adc1d0', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': '3c71f1ff593945b280b8b5736f8bb20b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 6}}
+
+[57ce45e9f3b248b48efe63180d355fc4]
+  Uuid: 57ce45e9f3b248b48efe63180d355fc4
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': -20.609766, 'Y': 12.7956438, 'Z': -12.4332066}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_001
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[583a1847697a43a89425e4232e256b66]
+  Uuid: 583a1847697a43a89425e4232e256b66
+  ItemType: Building
+  MasterId: 609505601
+  LocalizedName: エレベーター
+  LocalizedDetail: 昇降操作が可能
+  Num: 1
+  Position: {'X': -6.81314468, 'Y': 9.0, 'Z': -12.2647095}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エレベーター_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[58b96905dd49416da9c632b01a71d11a]
+  Uuid: 58b96905dd49416da9c632b01a71d11a
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_024
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'd95baf3c80474c179a59d71b2773bdd4', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '1': {'Uuid': '4999e60a15fb4efd919a4337b3fe6bca', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '2': {'Uuid': '53a8ca399ee646c092815ff51bfb9471', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '3': {'Uuid': 'd80eae702ffd4f8291fe9a6c97ba495e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '4': {'Uuid': '3e0b9f33d59d4cfd973bcac6c0d4cec4', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '5': {'Uuid': 'bd88b3df262e4d0fb1535570ec79a8fa', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '6': {'Uuid': '6815af99af3b411e888b95ce140df0dc', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '7': {'Uuid': '8a0100bb9a2e4d0a92c09b9a34aede01', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '8': {'Uuid': '8bc8d5733ab3445ca262384421aff115', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '9': {'Uuid': 'c20cc8812b9249569f022a75386735c6', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '10': {'Uuid': 'f674562e2526487b83028e57d49e4c0b', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '11': {'Uuid': '2c37b7a9d78942b787ef1522381fdebb', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '12': {'Uuid': '64adc066b6fb48c698a6684565b8488e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '13': {'Uuid': '38080b0b4e894bb8936111f489c45e71', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '14': {'Uuid': 'fbe4501c8ccd40e6a2761eb630d1a883', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '15': {'Uuid': 'd97fd1ca347540a2bc1c4e83ac5c7fd1', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '16': {'Uuid': '504529081d9f41b59a02a63976ed1082', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '17': {'Uuid': 'd20d4e8aa6c24f259c1a022a0ad458aa', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '18': {'Uuid': '051509ba708e47df997580f21c79fcd6', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '19': {'Uuid': 'ea54e7d2b6ab4f50ba351addb52f8ba3', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '20': {'Uuid': '1be77442ee854d35b3a2c2e413510e5f', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '21': {'Uuid': '46c699f347d74f5e9fcf675e4bf27bda', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '22': {'Uuid': '6ea82a773287405ba46433adcef7840c', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '23': {'Uuid': '71624bac9b5f4e7b9b5d5348c72a9077', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
 
 [5b08e826d2e548a6ada40dec3f728023]
   Uuid: 5b08e826d2e548a6ada40dec3f728023
@@ -85,6 +718,33 @@
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   InventoryItems: {}
 
+[5d235d1b07164033a7cbb961d1106e74]
+  Uuid: 5d235d1b07164033a7cbb961d1106e74
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_070
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '39ae73468f01407d8787d6c0ee01c3de', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[5d8c210712934ecf87f61be85287ab2d]
+  Uuid: 5d8c210712934ecf87f61be85287ab2d
+  ItemType: Building
+  MasterId: 609503205
+  LocalizedName: 灯籠1
+  LocalizedDetail: 周囲を照らす灯具
+  Num: 1
+  Position: {'X': -17.5989037, 'Y': 9.0, 'Z': -18.7121487}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 灯籠1_016
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
 [5e9b64700b8349bab7aaa1ccacf5c05a]
   Uuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   ItemType: Building
@@ -92,157 +752,571 @@
   LocalizedName: 街のシンボル
   LocalizedDetail: 街のシンボルとなる建築物で、街を作り始めるのに必要
   Num: 1
-  Position: {'X': -8.0, 'Y': 15.0, 'Z': 6.0}
+  Position: {'X': -8.0, 'Y': 14.999999, 'Z': 6.0}
   Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
   IsAbsorbable: False
   DisplayName: けん玉次郎初の街
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
 
-[6175d9eca56a476c9dd6e0677b9423ba]
-  Uuid: 6175d9eca56a476c9dd6e0677b9423ba
+[5edd21b002314c7b9c427783f54d6cd7]
+  Uuid: 5edd21b002314c7b9c427783f54d6cd7
   ItemType: Building
-  MasterId: 609501401
-  LocalizedName: トーチ
-  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  MasterId: 609503904
+  LocalizedName: 壁掛け文字列ボード
+  LocalizedDetail: 壁に掛けて文字を表示できる文字列ボード
   Num: 1
-  Position: {'X': -8.336414, 'Y': 15.0, 'Z': -20.6225128}
+  Position: {'X': -14.7649164, 'Y': 19.2202587, 'Z': -15.9078646}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 壁掛け文字列ボード_009
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[5fabad79dd514e7cbff7c6baf74c1d3a]
+  Uuid: 5fabad79dd514e7cbff7c6baf74c1d3a
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': 4.91201162, 'Y': 25.95, 'Z': -0.709560335}
   Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: トーチ_004
+  DisplayName: 和風なシーリングライト_006
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
 
-[876c44a1fffd46ffbb0863c46d90da2a]
-  Uuid: 876c44a1fffd46ffbb0863c46d90da2a
-  ItemType: Building
-  MasterId: 601200001
-  LocalizedName: データアナライザー
-  LocalizedDetail: アイテムを解析することでこの世界の情報を集めることができる装置
-  Num: 1
-  Position: {'X': -21.5606327, 'Y': 17.05, 'Z': 2.897633}
-  Rotation: {'X': 0.0, 'Y': 180.0, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: データアナライザー_001
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-
-[8ec1f500052e4c76b6b1edb1a06ccf49]
-  Uuid: 8ec1f500052e4c76b6b1edb1a06ccf49
-  ItemType: Building
-  MasterId: 600500003
-  LocalizedName: 加工台
-  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
-  Num: 1
-  Position: {'X': -24.4062519, 'Y': 17.05, 'Z': -10.1243649}
-  Rotation: {'X': 0.0, 'Y': 45.0000038, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: 加工台_005
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
-  SelectedRecipeId: 358100101
-  CraftOutputItemUuid: 
-
-[9499f6ba35eb449ea9b5efb48a1dec40]
-  Uuid: 9499f6ba35eb449ea9b5efb48a1dec40
-  ItemType: Building
-  MasterId: 609502203
-  LocalizedName: 木のドア(大)
-  LocalizedDetail: 建物の入口に取り付ける木の扉
-  Num: 1
-  Position: {'X': -3.35299683, 'Y': 15.0, 'Z': -3.71172142}
-  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: 木のドア(大)_001
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-
-[9a6580e8c25e4e6d8c493956f17ce7c0]
-  Uuid: 9a6580e8c25e4e6d8c493956f17ce7c0
-  ItemType: Building
-  MasterId: 600500003
-  LocalizedName: 加工台
-  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
-  Num: 1
-  Position: {'X': -18.575098, 'Y': 17.05, 'Z': 2.77754068}
-  Rotation: {'X': 0.0, 'Y': 135.0, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: 加工台_003
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'GrammiCrafting', 'Message': 'グラミーによりクラフト中です。'}
-  SelectedRecipeId: 250200001
-  CraftOutputItemUuid: None
-
-[a57f795b2e8f42e994a57738c271425d]
-  Uuid: a57f795b2e8f42e994a57738c271425d
-  ItemType: Building
-  MasterId: 609501401
-  LocalizedName: トーチ
-  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
-  Num: 1
-  Position: {'X': 4.42652464, 'Y': 15.0, 'Z': -15.9276352}
-  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: トーチ_003
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-
-[c1cf62021f194c5aab7dcccf13d6949e]
-  Uuid: c1cf62021f194c5aab7dcccf13d6949e
-  ItemType: Building
-  MasterId: 600500003
-  LocalizedName: 加工台
-  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
-  Num: 1
-  Position: {'X': -18.05652, 'Y': 17.05, 'Z': -6.42216873}
-  Rotation: {'X': 0.0, 'Y': 315.000031, 'Z': 0.0}
-  IsAbsorbable: False
-  DisplayName: 加工台_004
-  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'GrammiCrafting', 'Message': 'グラミーによりクラフト中です。'}
-  SelectedRecipeId: 250200001
-  CraftOutputItemUuid: None
-
-[c5a8dae10d674424aa02e39deccfac24]
-  Uuid: c5a8dae10d674424aa02e39deccfac24
+[60005ad52e49458ab54b174a7a8c575d]
+  Uuid: 60005ad52e49458ab54b174a7a8c575d
   ItemType: Building
   MasterId: 601000002
   LocalizedName: シングルコンテナ
   LocalizedDetail: 1種類のアイテムを保管できるコンテナ
   Num: 1
-  Position: {'X': -6.830305, 'Y': 15.0, 'Z': 2.40353584}
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_062
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '8fa12586a78d43fb816cbf09307c7fd5', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[63b2761b4abb46289f5389a1d9d9d9ea]
+  Uuid: 63b2761b4abb46289f5389a1d9d9d9ea
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_031
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '2336ca0ff17b47dfaa639f3f79105550', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[650e4a1f64e0495aafd23e452445cec6]
+  Uuid: 650e4a1f64e0495aafd23e452445cec6
+  ItemType: Building
+  MasterId: 609502201
+  LocalizedName: 木のドア
+  LocalizedDetail: 建物の入口に取り付ける木の扉
+  Num: 1
+  Position: {'X': -0.7909899, 'Y': 17.0, 'Z': -21.2182388}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木のドア_002
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[65d5fb3559fb41569ee1fa9144a08d1a]
+  Uuid: 65d5fb3559fb41569ee1fa9144a08d1a
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 6.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_083
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'b10f191df0354b579cf6da08b40caaba', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[69973c657f284725a74c2d1a27cdd55f]
+  Uuid: 69973c657f284725a74c2d1a27cdd55f
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_022
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '093eaf746f9246cbbae7c381b5ce247c', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[6b71123b82644d5c9ed857d48c7a78c0]
+  Uuid: 6b71123b82644d5c9ed857d48c7a78c0
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 5.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_082
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '9cb708cf0ecb4780b38264e82318a429', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[7087af1f1ae542c18c6f278effbe799d]
+  Uuid: 7087af1f1ae542c18c6f278effbe799d
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': -17.82481, 'Y': 21.4927254, 'Z': -16.6199265}
   Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: 木材_1
+  DisplayName: 和風なシーリングライト_008
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {'0': {'Uuid': '1ccad5ccfd75429886bbef613f127e2b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': 'fa3123224daf49c2a3e8942b8a1e9c9b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': '012ed7e4a74b4c04b330ca346b6e46ab', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': 'd9e6500ef3d94eb7957daa3ca91ae815', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '16dd14637b454eed96c7d5d2e1484bf1', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '7d1ce170ac934ef58e9b24d42c48a452', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': 'd871c31343544f21a0d4025dcf406bc6', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': '28b2aa3da43e407fadaa44fb004ed7f0', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '8': {'Uuid': 'e07d3adf86f84536ad05f4f5b937a957', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '9': {'Uuid': '75473300bcaa4e1ab5df040e25234b03', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '10': {'Uuid': 'f1ea79d872bd42d78eb3b5ea6c2968bc', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '11': {'Uuid': '68fc76ed815b49bbbf8d4bc5c2e6689a', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '12': {'Uuid': '2a44c9a78f4c411294dc276cf776b79c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '13': {'Uuid': 'c6734bf57b4c41d1a4d83ec2e6093208', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 48}, '23': {'Uuid': '8a7dda29000d4108adf24410ad908674', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
 
-[d1788b1be4344e0c8bc808eef5a9771e]
-  Uuid: d1788b1be4344e0c8bc808eef5a9771e
+[731c59c1ab1048acbdba6c52431be916]
+  Uuid: 731c59c1ab1048acbdba6c52431be916
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_072
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '808f9c8493fc4809ba12e0e4bed981e2', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[7d75c01c9ecb4cbbad1be1ff8c82abd9]
+  Uuid: 7d75c01c9ecb4cbbad1be1ff8c82abd9
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': 5.18584633, 'Y': 25.95, 'Z': 0.949648261}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_007
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[7f1a96b9d1df4fcdb8203ee1f8379550]
+  Uuid: 7f1a96b9d1df4fcdb8203ee1f8379550
+  ItemType: Building
+  MasterId: 609503904
+  LocalizedName: 壁掛け文字列ボード
+  LocalizedDetail: 壁に掛けて文字を表示できる文字列ボード
+  Num: 1
+  Position: {'X': -14.7649164, 'Y': 19.22547, 'Z': -18.2528362}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 壁掛け文字列ボード_005
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[80e68d1b618546478a388b24259ce5a4]
+  Uuid: 80e68d1b618546478a388b24259ce5a4
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_021
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '0ac2654bec1d48329e0fade2e8d2cdd1', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[814956b8df8d48f187b9279bb04a4c59]
+  Uuid: 814956b8df8d48f187b9279bb04a4c59
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 7.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_084
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '279e4f27da5448bfa5d2b9259543b679', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[81fd5956719943a7929dd2bd1321deae]
+  Uuid: 81fd5956719943a7929dd2bd1321deae
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_066
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'f8ac66f0f9414ca0bf68787c16ddd442', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[8304376bb0cd4bfa82ef4ba8abfbef59]
+  Uuid: 8304376bb0cd4bfa82ef4ba8abfbef59
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 16.03112, 'Y': 17.025, 'Z': 1.373568}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_031
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[8adf33a02af243c79f71ccebc957721e]
+  Uuid: 8adf33a02af243c79f71ccebc957721e
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_041
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '2a0cb225845945748bd214f5ebdc44ee', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[8b9dc06e43d94b2894eba1bcfd030ac8]
+  Uuid: 8b9dc06e43d94b2894eba1bcfd030ac8
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_078
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '89a496fe29d547359eb7f60a5d99166f', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[8bfb4049c958431dab5931068e63b523]
+  Uuid: 8bfb4049c958431dab5931068e63b523
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_037
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '1d910d7a9a4d4668a4341025795d64ad', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[8eb48cd33ba34559828c4fbc56cb51c4]
+  Uuid: 8eb48cd33ba34559828c4fbc56cb51c4
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': 3.90313387, 'Y': 28.95, 'Z': 7.59676743}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[8f3138101cf342d19d699983442d0a6e]
+  Uuid: 8f3138101cf342d19d699983442d0a6e
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 18.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら(大)_040
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '0f92be2461d24855bcab37d8becad37a', 'ItemType': 'RawMaterial', 'MasterId': 209700002, 'LocalizedName': 'バグのかけら(大)', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[91895639b8074b16abba76e333d06d44]
+  Uuid: 91895639b8074b16abba76e333d06d44
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -14.5486689, 'Y': 7.05, 'Z': -63.42812}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_050
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[92d86032b53f46e59d73b118166ff4d4]
+  Uuid: 92d86032b53f46e59d73b118166ff4d4
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -6.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_033
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '294e71fbb9bb45e799ae23c12da266c3', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[973af818dab14a6e9ce7212d077eb042]
+  Uuid: 973af818dab14a6e9ce7212d077eb042
+  ItemType: Building
+  MasterId: 609503903
+  LocalizedName: 文字列ボード
+  LocalizedDetail: 文字を表示できる文字列ボード
+  Num: 1
+  Position: {'X': -21.20115, 'Y': 19.0, 'Z': 0.65728426}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 文字列ボード_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[99bbc4e2634c4380b6a0c463b3821fec]
+  Uuid: 99bbc4e2634c4380b6a0c463b3821fec
+  ItemType: Building
+  MasterId: 609504301
+  LocalizedName: まとめて採掘指示棒
+  LocalizedDetail: プログラムから指定すると、グラミーが範囲内の鉱山をまとめて採掘してくれるようになる
+  Num: 1
+  Position: {'X': 15.6197186, 'Y': 21.05, 'Z': -9.224474}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: まとめて採掘指示棒_009
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[9b7381843e1c43ba9702314fcb1768c3]
+  Uuid: 9b7381843e1c43ba9702314fcb1768c3
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_029
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'd622c66f1bb84109a5dfb9c3a3e3119f', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '1': {'Uuid': 'aa9f4bb735194664b66f2532a5dc222e', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '2': {'Uuid': '1a7cc7b0d5e049e4a6a34162eb61223d', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '3': {'Uuid': '43dbf5e8bf7d4bd490f99734bab8fa48', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '4': {'Uuid': 'ad11b89943654510b1b708a43e6dd12f', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '5': {'Uuid': '9fc104d0b2424ec1aa45f4681847a6b3', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '6': {'Uuid': '0f86ff3d320d46288c121c42f4b94190', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '7': {'Uuid': 'c0ad7e2707ca4ed1baaca3cbd00bb4b8', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '8': {'Uuid': '3af91e5485cf462787ba4ed72f05e5ec', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '9': {'Uuid': 'c3a82231f316418f820e6b2c3dabf0a5', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '10': {'Uuid': 'e42d887d756e40f08a01ddca8af34f1a', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '11': {'Uuid': 'dae2620beb12445eac9feab5ed100a0f', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '12': {'Uuid': 'e714747399f3406c8d7ab7a4c84eaebf', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '13': {'Uuid': '3ae46fecaf44433395f6bee0eee312fd', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '14': {'Uuid': '93248961025143af96f7ca864760558c', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '15': {'Uuid': '8df79d165a074caba06aa81b9ee78ac9', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '16': {'Uuid': '319e9d017d5545c2ada43a8c9608cc39', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '17': {'Uuid': '49fb258220b44a26a88b345fc0b7d7cd', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '18': {'Uuid': 'd1aacf3e5f0c426c84ae68fbcf1743bd', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '19': {'Uuid': 'bb6a833682c94f51bd52d0eca1c5387c', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '20': {'Uuid': '6b2b935c036146cb8ad7a1125ef092df', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '21': {'Uuid': '094fb5a7c1a345888c1847276114fa6f', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '22': {'Uuid': '4ecbef23721744d18cfbde63a3dd8cbc', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '23': {'Uuid': 'b6a22598a6d34e6886f39059dbeac83b', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[9f480c827c224cb2850a345643a65ee6]
+  Uuid: 9f480c827c224cb2850a345643a65ee6
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_032
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'db7a8b8d76d344a6ad75c097a20f13d0', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}}
+
+[a001d71b54824bd48016eeff5cf72d46]
+  Uuid: a001d71b54824bd48016eeff5cf72d46
+  ItemType: Building
+  MasterId: 609504602
+  LocalizedName: 和風なシーリングライト
+  LocalizedDetail: 天井に吊るして使用する、和風な灯具
+  Num: 1
+  Position: {'X': 2.4202075, 'Y': 28.95, 'Z': 1.13786447}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 和風なシーリングライト_005
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[a64524e2f8d14504b8d5ce721185ec79]
+  Uuid: a64524e2f8d14504b8d5ce721185ec79
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 4.252146, 'Y': 17.025, 'Z': 8.439154}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_029
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[aa3c63759e9e4fd8b04fab327b7654e6]
+  Uuid: aa3c63759e9e4fd8b04fab327b7654e6
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 18.51579, 'Y': 23.05, 'Z': 7.761608}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_049
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[aad72eb4d9d544e59127360fab290a7f]
+  Uuid: aad72eb4d9d544e59127360fab290a7f
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 12.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_060
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '11dc7f3879844f0581f36d90c742fac2', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '1': {'Uuid': 'bdf5896fdaba4914acbc3a09f5fc7f85', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '2': {'Uuid': '445b004c68d149ccb359ae705abd8d22', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '3': {'Uuid': '2508d9526c5541dbbea812b7fb7a069d', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '4': {'Uuid': '12fca4745efc43d0986f305b43c5c83c', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '5': {'Uuid': '808768d628ee49cfa8a98d2820b6eb6f', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '6': {'Uuid': '3e18f381e6634ae686d5c26a684047a7', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '7': {'Uuid': 'd88a3e9ab3584de7acdaef2bf725ea21', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '8': {'Uuid': 'd6aae8c06f824e6da88bb10f8f87772b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '9': {'Uuid': '17784ecb3de6419ab430b9299c2c148b', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '10': {'Uuid': '0db5902c50f342c993649b5a133407a4', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '11': {'Uuid': 'b93d1182d3ed49e592d02df4f41bb867', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '12': {'Uuid': '52fb6443e33849e89b66fe9c93c0c300', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '13': {'Uuid': '3fd0b7eef85445c69dcb5868407a0a0f', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '14': {'Uuid': '1f1dc0450aac49049702c009590e9a48', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '15': {'Uuid': '1c7934f11a9e46a296b120c7a24466fd', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '16': {'Uuid': 'e75818fb97dd46afa110cebfaa13f5d7', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '17': {'Uuid': 'a0eb7fb497a646ce9c9054228141f591', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '18': {'Uuid': 'c4b1726bc24a4e4ca9550d56e90fc248', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '19': {'Uuid': '454eb8f589ce44fe9e305ce9a4bb7095', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '20': {'Uuid': 'f502015a4aab44c8acef3885c1104643', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '21': {'Uuid': '0336c967a72044288d064eafed9dc176', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '22': {'Uuid': 'd14380bd13144d278d65a39cde0f3ed2', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}, '23': {'Uuid': '9132a2f8197a44f0bc2ee12866420f12', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[abdf81d99bf94c5ba8e0e76dbfda3c72]
+  Uuid: abdf81d99bf94c5ba8e0e76dbfda3c72
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -4.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_058
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '3aa3facaf65b41a18ba976a54093b400', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[acd4ec8a8097459fa2b5115bfcd4908b]
+  Uuid: acd4ec8a8097459fa2b5115bfcd4908b
+  ItemType: Building
+  MasterId: 601000013
+  LocalizedName: マルチチェスト(赤)
+  LocalizedDetail: 複数種類のアイテムを保管できるチェスト。グラミーは先頭のものから取り出す。
+  Num: 1
+  Position: {'X': -13.6609678, 'Y': 8.05, 'Z': -62.00284}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: マルチチェスト(赤)_003
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {}
+
+[afdc926384914769b37759f3dd2f9a78]
+  Uuid: afdc926384914769b37759f3dd2f9a78
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 10.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木材_079
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'b7e7c54cca6d43e39cf3d256b30411fe', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 100}}
+
+[b249db73a9034bd587ffd9a7b14356ea]
+  Uuid: b249db73a9034bd587ffd9a7b14356ea
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 16.0412254, 'Y': 17.0, 'Z': 7.043208}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_032
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[bcc675383849430b87fb7323e6b31780]
+  Uuid: bcc675383849430b87fb7323e6b31780
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 10.3944778}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_087
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '0ada09cc60314bbebe3cce4a6b6bbe57', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[c5e678d87b404335913a19ea7bcbdf96]
+  Uuid: c5e678d87b404335913a19ea7bcbdf96
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 20.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: バグのかけら_030
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '51af5d94c50f42d99803e78e147564ce', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '1': {'Uuid': 'eaa6b5e160f941a683118c8e879af227', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '2': {'Uuid': '2f86ae5f2b644d66b372ac828815a100', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '3': {'Uuid': 'a80687603914431bb731a85d1f5443f7', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 1000}, '4': {'Uuid': 'ab243937a0844d97a299c489b6aacf6c', 'ItemType': 'RawMaterial', 'MasterId': 209700001, 'LocalizedName': 'バグのかけら', 'LocalizedDetail': 'たくさん集めることでグラミーを召喚することができる', 'Num': 599}}
+
+[c618ab0a788c4172902d6bc68269cb39]
+  Uuid: c618ab0a788c4172902d6bc68269cb39
   ItemType: Building
   MasterId: 600500001
   LocalizedName: 作業台
   LocalizedDetail: 装備の作成をするのに必要な基本的な台
   Num: 1
-  Position: {'X': -24.4714069, 'Y': 17.05, 'Z': -6.04381466}
-  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  Position: {'X': 17.6173, 'Y': 17.0, 'Z': -20.23267}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: 作業台_003
+  DisplayName: 作業台_005
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
-  SelectedRecipeId: 350600101
-  CraftOutputItemUuid: None
+  CraftState: {'State': 'ResourceReady', 'Message': '必要素材が揃っているのでクラフトを開始できます。'}
+  SelectedRecipeId: 350200101
+  CraftOutputItemUuid: 
 
-[d7a66c554c464a46a5fee6efde911b8a]
-  Uuid: d7a66c554c464a46a5fee6efde911b8a
+[cdeec53fbbdd45d084a18d3f572f53da]
+  Uuid: cdeec53fbbdd45d084a18d3f572f53da
   ItemType: Building
-  MasterId: 600500003
-  LocalizedName: 加工台
-  LocalizedDetail: 木材や敵の素材を加工してアイテムを作るための工房
+  MasterId: 609502203
+  LocalizedName: 木のドア(大)
+  LocalizedDetail: 建物の入口に取り付ける木の扉
   Num: 1
-  Position: {'X': -24.2257137, 'Y': 17.05, 'Z': -2.54454279}
-  Rotation: {'X': 0.0, 'Y': 45.0000038, 'Z': 0.0}
+  Position: {'X': 5.585466, 'Y': 23.0, 'Z': 5.820452}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: 加工台_002
+  DisplayName: 木のドア(大)_002
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  CraftState: {'State': 'ResourcePreparing', 'Message': '必要素材が足りていません。', 'ItemsInCraftFacility': []}
-  SelectedRecipeId: 250200001
-  CraftOutputItemUuid: None
+
+[d09ea9a3d43842a981938347b8d31777]
+  Uuid: d09ea9a3d43842a981938347b8d31777
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_068
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'c6ef1f980de7460a9b5d03050639aebf', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 100}, '1': {'Uuid': '8f30a440cd984aef9490006a6dd9c960', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 68}}
+
+[d322e5dcc41e4423a5bbc61e5d7253f7]
+  Uuid: d322e5dcc41e4423a5bbc61e5d7253f7
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -9.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_049
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'a3bcbc2be5e64920a2f601cace2f6010', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 1}}
 
 [d7b4f2c53fd24af2bf64723993bb7af5]
   Uuid: d7b4f2c53fd24af2bf64723993bb7af5
@@ -254,26 +1328,326 @@
   Position: {'X': -9.534519, 'Y': 15.0, 'Z': 2.392099}
   Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: シングルコンテナ_004
+  DisplayName: バナナ_004
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {}
+  InventoryItems: {'0': {'Uuid': 'a3dcec8bd08b4807bdfccba54ec290ee', 'ItemType': 'Food', 'MasterId': 500000002, 'LocalizedName': 'バナナ', 'LocalizedDetail': '果物の一種で、少しの回復効果がある', 'Num': 4}}
 
-[ebbe5d579efd4913ae40bbb14b116387]
-  Uuid: ebbe5d579efd4913ae40bbb14b116387
+[dbc0f3a13eec4a039e80de4208d1ad51]
+  Uuid: dbc0f3a13eec4a039e80de4208d1ad51
+  ItemType: Building
+  MasterId: 609502201
+  LocalizedName: 木のドア
+  LocalizedDetail: 建物の入口に取り付ける木の扉
+  Num: 1
+  Position: {'X': -10.9901314, 'Y': 7.0, 'Z': -61.9194336}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木のドア_004
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[dccb868098464e2288982cde98ac0b48]
+  Uuid: dccb868098464e2288982cde98ac0b48
   ItemType: Building
   MasterId: 609501401
   LocalizedName: トーチ
   LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
   Num: 1
-  Position: {'X': -7.78074265, 'Y': 15.0, 'Z': -6.71812439}
+  Position: {'X': 5.893443, 'Y': 17.0, 'Z': -26.7525063}
   Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
   IsAbsorbable: False
-  DisplayName: トーチ_001
+  DisplayName: トーチ_025
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[df4efb948cb74b2baa9dfbb080f1e5d9]
+  Uuid: df4efb948cb74b2baa9dfbb080f1e5d9
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 22.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 緑の魔法石（大）_025
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '78e0fe722c794af2baadf981e7f3f210', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '1': {'Uuid': '4cb1044ef5a74cedbe572de81209928f', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '2': {'Uuid': '8c7d006b65554f61979da20323d02d9a', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '3': {'Uuid': '820e60064d174867be5a1acf4b3449b4', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '4': {'Uuid': '70ea3ee87774420db0ff5f92ad05ed49', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '5': {'Uuid': '120d9773eb6c4c1e9306f6604b288d7a', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '6': {'Uuid': 'a134edb64d2e40948812bc8543098576', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '7': {'Uuid': 'fe963855d238492c992a151ff3f37852', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '8': {'Uuid': 'e0ee44a90a944f4ea372656c5cab3534', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '9': {'Uuid': '25e5ffc0274f4024aa052548c6564ade', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '10': {'Uuid': '01cc130b01e342d5a6664736e400d28f', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '11': {'Uuid': 'ee685f273f6b4c2cb6844a2777ad0c33', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '12': {'Uuid': 'e37256d0d7b044419aa631e943421d2e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '13': {'Uuid': '3b7f287eaf4f4440994a5a1a21e73edf', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '14': {'Uuid': '1a498f97565843de987c8fa3a7788b12', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '15': {'Uuid': '145efa2abf6344a49b3748c8f823c599', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '16': {'Uuid': '1190b60b44d847dab4f85ec4d7bcf183', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '17': {'Uuid': 'fbd320173d0b4bab9b6de126c5bf8b52', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '18': {'Uuid': 'cd92f041bfec42f5991f43eb5e18ee94', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '19': {'Uuid': '301c0bac5b7548a5a190ef3fee2894f9', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '20': {'Uuid': 'ad4396ce7f484d4d9fcdbf6add95c131', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '21': {'Uuid': 'cd20a370cad1447eaf039f67a6d5509e', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '22': {'Uuid': 'd17cde9793f341138902c427786402a6', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}, '23': {'Uuid': '0fdd5d8c55774b08888a3b0409a1a5f3', 'ItemType': 'RawMaterial', 'MasterId': 209000013, 'LocalizedName': '緑の魔法石（大）', 'LocalizedDetail': 'エンチャントアルターで使用することで、装備アイテムにレベル2エンチャントを3種類ランダムに付与することができる', 'Num': 100}}
+
+[e6c46f30def141348a7cea2f3002838f]
+  Uuid: e6c46f30def141348a7cea2f3002838f
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.3850555, 'Y': 23.05, 'Z': 8.394478}
+  Rotation: {'X': 0.0, 'Y': 90.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: オメガ鉱石_085
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '40cec658394c4555bc5582d45966fc42', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 1}}
+
+[e85f3ec771d24e449d83be0b5673b3d0]
+  Uuid: e85f3ec771d24e449d83be0b5673b3d0
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -11.3649216, 'Y': 7.05, 'Z': -56.8522}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_052
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[e92ba091b4e64a14bfa5aed9bcabd299]
+  Uuid: e92ba091b4e64a14bfa5aed9bcabd299
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': -0.06930351, 'Y': 17.0, 'Z': -26.9476948}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_024
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[ebd7a922279649f38c36d6bf0a4bf0b4]
+  Uuid: ebd7a922279649f38c36d6bf0a4bf0b4
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_045
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '120e714c829c42bd932ec35d291e6fe3', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 100}}
+
+[eddf1161dfdd4db08dc0b96e34e9bd0d]
+  Uuid: eddf1161dfdd4db08dc0b96e34e9bd0d
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 4.59453869, 'Y': 17.0148067, 'Z': 0.75}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_028
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[ee625c0c2a3d48718a14e39a21f8f728]
+  Uuid: ee625c0c2a3d48718a14e39a21f8f728
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_047
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '940879cbb40c46c2abdfd079a2213e63', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 1}}
+
+[f0b90ae7a3fd42e3a512a7205656fd8d]
+  Uuid: f0b90ae7a3fd42e3a512a7205656fd8d
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -10.9704208}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_050
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': 'd16ce0b2e5d94304b74a151b99e3c737', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 12}}
+
+[f13d07a92e8b4f4aa554f47f8dcaf16e]
+  Uuid: f13d07a92e8b4f4aa554f47f8dcaf16e
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 16.0516644, 'Y': 17.0, 'Z': -8.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: エネルギーコア_048
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '5744053fb80e4eec8295b7d08fda6b51', 'ItemType': 'RawMaterial', 'MasterId': 203500002, 'LocalizedName': 'エネルギーコア', 'LocalizedDetail': '莫大なエネルギーを秘めたコア', 'Num': 1}}
+
+[f49fc72f351c467da23789e3b2211005]
+  Uuid: f49fc72f351c467da23789e3b2211005
+  ItemType: Building
+  MasterId: 609501401
+  LocalizedName: トーチ
+  LocalizedDetail: 暗闇を照らすための火。グラミーの手元を照らすことで、アイテムの取り扱いが速くなる。
+  Num: 1
+  Position: {'X': 18.4966545, 'Y': 23.05, 'Z': 1.94030666}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: トーチ_048
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+
+[f93d94b4678a446d8be322e16489ffc3]
+  Uuid: f93d94b4678a446d8be322e16489ffc3
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -7.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_065
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '063ff63fcb64474a86b4f5f9c8e608c6', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[f9559b6b14734b5fa7f1c2706ac5bd52]
+  Uuid: f9559b6b14734b5fa7f1c2706ac5bd52
+  ItemType: Building
+  MasterId: 601000002
+  LocalizedName: シングルコンテナ
+  LocalizedDetail: 1種類のアイテムを保管できるコンテナ
+  Num: 1
+  Position: {'X': 14.0516644, 'Y': 17.0, 'Z': -5.970421}
+  Rotation: {'X': 0.0, 'Y': 270.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 世界の記録_063
+  ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  InventoryItems: {'0': {'Uuid': '754377c93f0745689806a27c99a9a2b8', 'ItemType': 'RawMaterial', 'MasterId': 209900022, 'LocalizedName': '世界の記録', 'LocalizedDetail': 'ロストワールドのデータが記録されたオブジェクト', 'Num': 1}}
+
+[f95ad105eb934475a60ad32bd7fb7d91]
+  Uuid: f95ad105eb934475a60ad32bd7fb7d91
+  ItemType: Building
+  MasterId: 609502603
+  LocalizedName: 木の動く床(上)
+  LocalizedDetail: 木で作られた上に動く軽量な床
+  Num: 1
+  Position: {'X': 23.4231358, 'Y': 24.05, 'Z': -1.0963186}
+  Rotation: {'X': 0.0, 'Y': 0.0, 'Z': 0.0}
+  IsAbsorbable: False
+  DisplayName: 木の動く床(上)_003
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
 
 ==================================================
   GRAMMI
 ==================================================
-  （アイテムなし）
+[g0]
+  Uuid: fa6aaa90184f455d86e4cc2c900da1f6
+  Name: 地下採掘場労働者１号
+  Position: {'X': -8.058535, 'Y': 13.1544294, 'Z': -11.7638922}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: False
 
-最終更新: 2026-06-04 18:09:27
+[g1]
+  Uuid: 280bf557cf8b4114871316c614b0c078
+  Name: 地下採掘場労働者２号
+  Position: {'X': -6.902438, 'Y': 13.1544294, 'Z': -13.5919561}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: False
+
+[g10]
+  Uuid: ba3ee6f8193145eba51ddd497d2e05b2
+  Name: 街グラミー_011
+  Position: {'X': 17.92294, 'Y': 23.0500011, 'Z': 6.318939}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g11]
+  Uuid: 98da95d79e2f484ba6dcff1dd28c3078
+  Name: 街グラミー_012
+  Position: {'X': 18.2454567, 'Y': 23.0500011, 'Z': 4.85004139}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g12]
+  Uuid: 9ce12c1c8e544f86b138bdb38ce5091c
+  Name: 街グラミー_013
+  Position: {'X': 19.8613167, 'Y': 23.3375, 'Z': 8.070551}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g13]
+  Uuid: f5d726653129424caf18cb7c620a15b4
+  Name: 街グラミー_014
+  Position: {'X': 17.3461323, 'Y': 23.0500011, 'Z': 5.338163}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g14]
+  Uuid: 2a9cc5bb9e0348e3ae159c8735a497d7
+  Name: 街グラミー_015
+  Position: {'X': -19.2737732, 'Y': 19.0000019, 'Z': -2.13324547}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g15]
+  Uuid: c5cef2898a404d7fba3db4d2672665db
+  Name: 街グラミー_016
+  Position: {'X': -18.65846, 'Y': 19.0000019, 'Z': -1.05900252}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g2]
+  Uuid: 2cf699683eb1422d89d9fe552be52ea4
+  Name: 地下採掘場親方
+  Position: {'X': -9.817562, 'Y': 9.0, 'Z': -18.3414726}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: False
+
+[g3]
+  Uuid: db65c3ed095b431ab09c60ed0da8ff85
+  Name: 街グラミー_004
+  Position: {'X': -13.4118557, 'Y': 7.05, 'Z': -58.5536461}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g4]
+  Uuid: 21fe121575c44008aa992403ddb8d192
+  Name: 街グラミー_005
+  Position: {'X': -2.98178673, 'Y': 15.0, 'Z': 6.616793}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: False
+
+[g5]
+  Uuid: 5b1d618dfc304ea0adef1cb59fadebbf
+  Name: 街グラミー_006
+  Position: {'X': -5.93017054, 'Y': 15.0, 'Z': 7.50664}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g6]
+  Uuid: 34af4befa1e34c16a8fce81f0a84901b
+  Name: 街グラミー_007
+  Position: {'X': -14.1253366, 'Y': 7.05, 'Z': -58.580864}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+[g7]
+  Uuid: b3c6425327a94fcdb2f7ecbb6646ed2d
+  Name: 街グラミー_008
+  Position: {'X': -344.544281, 'Y': 9.87809849, 'Z': 931.389954}
+  CityUuid: 1fb4d44e0e654ab4b641246032656db4
+  IsEditorPlaying: False
+
+[g8]
+  Uuid: f3336cec43994e17bb4862a7953a9862
+  Name: 街グラミー_009
+  Position: {'X': -325.272156, 'Y': 9.356187, 'Z': 922.173462}
+  CityUuid: 1fb4d44e0e654ab4b641246032656db4
+  IsEditorPlaying: False
+
+[g9]
+  Uuid: 110b856ddbc44fc08059ae2f04ab4c27
+  Name: 街グラミー_010
+  Position: {'X': 17.8421745, 'Y': 23.0500011, 'Z': 7.07075453}
+  CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
+  IsEditorPlaying: True
+
+最終更新: 2026-08-20 17:31:46

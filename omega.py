@@ -15,6 +15,8 @@ OUTPUT_TXT = "txt/OmegaCrafter.txt"  # 書き込み先テキストファイル
 # ------------------------------------------------
 def fetch(path, params=None):
     try:
+        # print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+        # print(f"{BASE_URL}{path}")
         resp = requests.get(f"{BASE_URL}{path}", params=params, timeout=2)
         return resp.json()
     except Exception as e:
@@ -27,7 +29,7 @@ def fetch_buildings(uuid):
     return fetch("/city/building-list", params={"uuid": uuid}) or []
 
 def fetch_grammi():
-    return fetch("/city/grammi-list") or []
+    return fetch("/env/city-grammi-list") or []  # 修正: /env/city-grammi-list
 
 # ------------------------------------------------
 # アイテムをフラットな辞書に変換 { id: item_dict }
@@ -136,9 +138,9 @@ def main():
     if isinstance(cities, list) and cities:
         first = cities[0]
         if isinstance(first, dict):
-            uuid = first.get("uuid") or first.get("id") or uuid
+            uuid = first.get("Uuid") or first.get("uuid") or first.get("id") or uuid
     elif isinstance(cities, dict):
-        uuid = cities.get("uuid") or uuid
+        uuid = cities.get("Uuid") or cities.get("uuid") or uuid
 
     prev_buildings: dict = {}
     prev_grammi:    dict = {}

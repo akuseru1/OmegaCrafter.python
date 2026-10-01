@@ -13,7 +13,7 @@
   IsAbsorbable: False
   DisplayName: マルチチェスト(赤)_001
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {'0': {'Uuid': '556b79dd3f924c97ac28a3bbc64a48cb', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '1': {'Uuid': 'f7ea67e31e094244ac709b6fb41b5fe7', 'ItemType': 'Food', 'MasterId': 500011002, 'LocalizedName': 'トビウオ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '2': {'Uuid': '1cbffcc17bc5420097b49a77bb79ff42', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 39}, '3': {'Uuid': '399cb6db853c4657bd87108058e401ce', 'ItemType': 'RawMaterial', 'MasterId': 200600001, 'LocalizedName': '石', 'LocalizedDetail': 'ただの石ころ', 'Num': 12}, '4': {'Uuid': 'ff71b411938b441d845180227468b243', 'ItemType': 'RawMaterial', 'MasterId': 201100003, 'LocalizedName': '木のタネ', 'LocalizedDetail': '木を育てることができる種', 'Num': 4}, '5': {'Uuid': '3b894b62cddc47029f65a7fcb66096e9', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 28}, '6': {'Uuid': 'abd3210e7f14413fa5c62153dc1b910d', 'ItemType': 'Food', 'MasterId': 500011002, 'LocalizedName': 'トビウオ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 2}}
+  InventoryItems: {'0': {'Uuid': '556b79dd3f924c97ac28a3bbc64a48cb', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '1': {'Uuid': 'f7ea67e31e094244ac709b6fb41b5fe7', 'ItemType': 'Food', 'MasterId': 500011002, 'LocalizedName': 'トビウオ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '2': {'Uuid': '1cbffcc17bc5420097b49a77bb79ff42', 'ItemType': 'RawMaterial', 'MasterId': 200000001, 'LocalizedName': '木材', 'LocalizedDetail': 'ただの木材', 'Num': 57}, '3': {'Uuid': '399cb6db853c4657bd87108058e401ce', 'ItemType': 'RawMaterial', 'MasterId': 200600001, 'LocalizedName': '石', 'LocalizedDetail': 'ただの石ころ', 'Num': 24}, '4': {'Uuid': 'ff71b411938b441d845180227468b243', 'ItemType': 'RawMaterial', 'MasterId': 201100003, 'LocalizedName': '木のタネ', 'LocalizedDetail': '木を育てることができる種', 'Num': 7}, '5': {'Uuid': '3b894b62cddc47029f65a7fcb66096e9', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 100}, '6': {'Uuid': 'abd3210e7f14413fa5c62153dc1b910d', 'ItemType': 'Food', 'MasterId': 500011002, 'LocalizedName': 'トビウオ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 53}, '7': {'Uuid': 'f92cdd53ffd8489299ecb43cb1d67046', 'ItemType': 'Food', 'MasterId': 500011001, 'LocalizedName': 'アジ', 'LocalizedDetail': 'はじまりの草原で釣れる魚。そのままでも食べられる。', 'Num': 20}}
 
 [06092272d3cf47bcb7697f600d8301a8]
   Uuid: 06092272d3cf47bcb7697f600d8301a8
@@ -108,7 +108,7 @@
   IsAbsorbable: False
   DisplayName: オメガ鉱石_081
   ParentCityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
-  InventoryItems: {'0': {'Uuid': '016582527ce84a9bb1623dfe9bf358bc', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '1': {'Uuid': '707c8158372a4c7f88e11a1586fa407f', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '2': {'Uuid': '4ad6de800e0340008c60f8c6d09e11d8', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '3': {'Uuid': '31fce6c4c6bf45c79376127d303bc109', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '4': {'Uuid': '82836881828b44dfb0b0eccc396b4827', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '5': {'Uuid': '6b2ffac512274e2691d7bfae99e0afdd', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '6': {'Uuid': 'cd6c4e3ebd8842568e6412028bfac396', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '7': {'Uuid': '4a18ad41aacf4174a2acca24249a0e71', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '8': {'Uuid': 'bcf33eb283514d398aabcabf35725065', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 34}}
+  InventoryItems: {'0': {'Uuid': '016582527ce84a9bb1623dfe9bf358bc', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '1': {'Uuid': '707c8158372a4c7f88e11a1586fa407f', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '2': {'Uuid': '4ad6de800e0340008c60f8c6d09e11d8', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '3': {'Uuid': '31fce6c4c6bf45c79376127d303bc109', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '4': {'Uuid': '82836881828b44dfb0b0eccc396b4827', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '5': {'Uuid': '6b2ffac512274e2691d7bfae99e0afdd', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '6': {'Uuid': 'cd6c4e3ebd8842568e6412028bfac396', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '7': {'Uuid': '4a18ad41aacf4174a2acca24249a0e71', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '8': {'Uuid': 'bcf33eb283514d398aabcabf35725065', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '9': {'Uuid': 'ce40ff44e8a641c19e8367a938ce3fd7', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 100}, '10': {'Uuid': 'e643334a14244dfa922842195b7a9e54', 'ItemType': 'RawMaterial', 'MasterId': 200600010, 'LocalizedName': 'オメガ鉱石', 'LocalizedDetail': '未知なる力を秘めた究極の鉱石', 'Num': 78}}
 
 [14a16f575dbf4a678b54637919b35657]
   Uuid: 14a16f575dbf4a678b54637919b35657
@@ -1555,28 +1555,28 @@
 [g10]
   Uuid: ba3ee6f8193145eba51ddd497d2e05b2
   Name: 街グラミー_011
-  Position: {'X': 19.708107, 'Y': 23.050127, 'Z': 3.23385549}
+  Position: {'X': 18.1276417, 'Y': 23.0500011, 'Z': 10.5916348}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
 [g11]
   Uuid: 98da95d79e2f484ba6dcff1dd28c3078
   Name: 街グラミー_012
-  Position: {'X': 16.36923, 'Y': 23.0500011, 'Z': 3.03856}
+  Position: {'X': 17.84669, 'Y': 23.0500011, 'Z': 5.32792139}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
 [g12]
   Uuid: 9ce12c1c8e544f86b138bdb38ce5091c
   Name: 街グラミー_013
-  Position: {'X': 17.8424053, 'Y': 23.0500011, 'Z': 4.19662237}
+  Position: {'X': 17.1760921, 'Y': 23.0500011, 'Z': 5.80220366}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
 [g13]
   Uuid: f5d726653129424caf18cb7c620a15b4
   Name: 街グラミー_014
-  Position: {'X': 18.2148628, 'Y': 23.0500011, 'Z': 3.587468}
+  Position: {'X': 17.2147846, 'Y': 23.0500011, 'Z': 4.995529}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
@@ -1604,14 +1604,14 @@
 [g3]
   Uuid: db65c3ed095b431ab09c60ed0da8ff85
   Name: 街グラミー_004
-  Position: {'X': -13.4118557, 'Y': 7.05, 'Z': -58.5536461}
+  Position: {'X': -13.4118557, 'Y': 7.049999, 'Z': -58.5536461}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
 [g4]
   Uuid: 21fe121575c44008aa992403ddb8d192
   Name: 実験台１号
-  Position: {'X': -2.97086716, 'Y': 15.0, 'Z': 6.65585947}
+  Position: {'X': -2.61836433, 'Y': 15.0, 'Z': 4.50966358}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: False
 
@@ -1625,7 +1625,7 @@
 [g6]
   Uuid: 34af4befa1e34c16a8fce81f0a84901b
   Name: 街グラミー_007
-  Position: {'X': -14.1253366, 'Y': 7.05, 'Z': -58.580864}
+  Position: {'X': -14.1253366, 'Y': 7.049999, 'Z': -58.580864}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
@@ -1646,8 +1646,8 @@
 [g9]
   Uuid: 110b856ddbc44fc08059ae2f04ab4c27
   Name: 街グラミー_010
-  Position: {'X': 16.7356014, 'Y': 23.0500011, 'Z': 2.4257257}
+  Position: {'X': 18.1224728, 'Y': 23.0500011, 'Z': 4.6693325}
   CityUuid: 5e9b64700b8349bab7aaa1ccacf5c05a
   IsEditorPlaying: True
 
-最終更新: 2026-08-20 17:56:07
+最終更新: 2026-10-01 16:47:26

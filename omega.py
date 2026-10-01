@@ -4,8 +4,9 @@ import time
 import os
 import threading
 from dotenv import load_dotenv
+load_dotenv()
 
-# prompt_toolkit を使ってターミナルのキー入力を監視する
+# prompt_toolkit
 from prompt_toolkit.application import Application
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.layout import Layout
@@ -16,7 +17,7 @@ from prompt_toolkit.layout.controls import FormattedTextControl
 from movegramy import get_player_position
 
 port = os.getenv("PORT")
-BASE_URL   = port
+BASE_URL   = port or "http://localhost:64123"  # 環境変数 PORT が未設定ならデフォルトを入れておく
 INTERVAL   = 3         # 確認間隔（秒）
 OUTPUT_TXT = "txt/OmegaCrafter.txt"  # 書き込み先テキストファイル
 
@@ -37,11 +38,10 @@ def fetch_buildings(uuid):
     return fetch("/city/building-list", params={"uuid": uuid}) or []
 
 def fetch_grammi():
-    return fetch("/env/city-grammi-list") or []  # 修正: /env/city-grammi-list
+    return fetch("/env/city-grammi-list") or []
 
 # ------------------------------------------------
 # アイテムをフラットな辞書に変換 { id: item_dict }
-# id キーがない場合は uuid / name / インデックスで代用
 # ------------------------------------------------
 def to_dict(items, prefix=""):
     result = {}
@@ -136,62 +136,10 @@ def diff(old: dict, new: dict):
     return added, removed, changed
 
 # ------------------------------------------------
-# prompt_toolkit を使ったキー監視（Shift+Enter と 'g' の両方をトリガー）
+# 監視ループ（バックグラウンドスレッドで動かす）
 # ------------------------------------------------
-def start_key_listener():
-    """
-    prompt_toolkit の Application を作成して run() します。
-    run() はブロッキングなので別スレッドで起動することを想定しています。
-    Shift+Enter の捕捉は端末に依存するため、念のため 'g' キーもトリガーとして追加しています。
-    """
-    kb = KeyBindings()
-
-    # @kb.add('s-enter')
-    # def _(event):
-    #     # Shift+Enter 検出時に movegramy.get_player_position を別スレッドで呼び出す
-    #     print("[キー] Shift+Enter を検出しました。get_player_position を呼び出します。")
-    #     threading.Thread(target=get_player_position, daemon=True).start()
-
-    @kb.add('g')
-    def _(event):
-        # 代替トリガー（端末が Shift+Enter を送らない場合の保険）
-        print("[キー] 'g' を検出しました。get_player_position を呼び出します。")
-        threading.Thread(target=get_player_position, daemon=True).start()
-
-    # 画面に簡単なヘルプを表示するためのレイアウト（必須ではないが視認性向上）
-    help_text = [
-        ("class:title", "Omega Monitor キーリスナー\n"),
-        ("", "  - Shift+Enter : movegramy.get_player_position を呼び出す（端末により動作しない場合あり）\n"),
-        ("", "  - g           : 上と同等の代替トリガー\n"),
-        ("", "  - Ctrl+C      : プログラム終了\n"),
-    ]
-    root_container = HSplit([
-        Window(content=FormattedTextControl(help_text), height=6, wrap_lines=True),
-    ])
-    layout = Layout(root_container)
-
-    app = Application(layout=layout, key_bindings=kb, full_screen=False)
-    try:
-        app.run()
-    except Exception as e:
-        # キーリスナーが予期せず止まった場合のログ
-        print(f"[キーリスナー] 実行中に例外が発生しました: {e}")
-
-# ------------------------------------------------
-# メイン
-# ------------------------------------------------
-def main():
-    print("=== Omega Monitor 起動 ===")
-    print(f"  確認間隔    : {INTERVAL}秒")
-    print(f"  出力ファイル: {OUTPUT_TXT}")
-    print("  Shift+Enter または 'g' で movegramy.get_player_position を呼び出します。")
-    print("  Ctrl+C で停止\n")
-    time.sleep(1)
-
-    # キー監視を別スレッドで開始（daemon にしてメイン終了時に自動終了）
-    key_thread = threading.Thread(target=start_key_listener, daemon=True)
-    key_thread.start()
-
+def monitor_loop(stop_event: threading.Event):
+    print("=== Monitor スレッド開始 ===")
     # 初回 UUID 取得
     cities = fetch_city_list()
     uuid = "5e9b64700b8349bab7aaa1ccacf5c05a"
@@ -206,7 +154,7 @@ def main():
     prev_grammi:    dict = {}
     iteration = 0
 
-    while True:
+    while not stop_event.is_set():
         try:
             iteration += 1
 
@@ -220,8 +168,9 @@ def main():
 
             if has_change:
                 print(f"\n--- #{iteration}  変更検知  ({time.strftime('%H:%M:%S')}) ---")
-                print_diff("Building", b_added, b_removed, b_changed)
-                print_diff("Grammi",   g_added, g_removed, g_changed)
+                # 差分情報の表示をなし
+                # print_diff("Building", b_added, b_removed, b_changed)
+                # print_diff("Grammi",   g_added, g_removed, g_changed)
 
                 write_txt(cur_buildings, cur_grammi)
                 print(f"  → {OUTPUT_TXT} を更新しました")
@@ -229,15 +178,99 @@ def main():
                 prev_buildings = cur_buildings
                 prev_grammi    = cur_grammi
 
-            time.sleep(INTERVAL)
+            # stop_event.wait を使うと中断時に素早く抜けられる
+            stop_event.wait(INTERVAL)
 
-        except KeyboardInterrupt:
-            print("\n\n監視を停止しました。")
-            break
         except Exception as e:
-            # 例外発生時はログを表示して短時間待って再試行
-            print(f"[エラー] ループ内で例外が発生しました: {e}")
-            time.sleep(1)
+            print(f"[Monitor エラー] {e}")
+            # 少し待ってから続行
+            if stop_event.wait(1):
+                break
+
+    print("=== Monitor スレッド終了 ===")
+
+# ------------------------------------------------
+# prompt_toolkit を使ったキー監視（メインスレッドで実行）
+# ------------------------------------------------
+def start_key_listener(stop_event: threading.Event):
+    """
+    この関数はメインスレッドで呼び出し、Application.run() をブロッキング実行します。
+    キー入力で get_player_position を別スレッドで呼び出します。
+    'g' と 'c-g'（Ctrl+G）をバインドしています。
+    端末によって Shift+Enter は区別されないため 's-enter' は使いません。
+    """
+    kb = KeyBindings()
+
+    @kb.add('g')
+    def _(event):
+        print("[キー] 'g' を検出しました。get_player_position を呼び出します。")
+        threading.Thread(target=get_player_position, daemon=True).start()
+
+    @kb.add('c-g')
+    def _(event):
+        print("[キー] Ctrl+G を検出しました。get_player_position を呼び出します。")
+        threading.Thread(target=get_player_position, daemon=True).start()
+
+    @kb.add('c-c')
+    def _(event):
+        print("\n[キーリスナー] Ctrl+C で停止要求を受信しました。")
+        event.app.exit()
+
+    # 画面に簡単なヘルプを表示
+    help_text = [
+        ("class:title", "Omega Monitor キーリスナー\n"),
+        ("", "  - g        : movegramy.get_player_position を呼び出す\n"),
+        ("", "  - Ctrl+G   : 同上（代替）\n"),
+        ("", "  - Ctrl+C   : プログラム終了\n"),
+        ("", "\n注意: 多くの端末は Shift+Enter を区別しません。Shift+Enter を必須にしたい場合は別手段（外部ホットキーやシグナル）を検討してください。\n"),
+    ]
+    root_container = HSplit([
+        Window(content=FormattedTextControl(help_text), height=8, wrap_lines=True),
+    ])
+    layout = Layout(root_container)
+
+    app = Application(layout=layout, key_bindings=kb, full_screen=False)
+
+    try:
+        # run() 中は Ctrl+C が KeyboardInterrupt にならずキー 'c-c' になる
+        app.run()
+    except KeyboardInterrupt:
+        print("\n[キーリスナー] Ctrl+C で停止要求を受信しました。")
+    except Exception as e:
+        print(f"[キーリスナー] 例外: {e}")
+    finally:
+        # 終了時に停止イベントを立てる（監視スレッドを終了させる）
+        stop_event.set()
+        # Application を安全に終了（run が例外で落ちている可能性があるため）
+        try:
+            app.exit()
+        except Exception:
+            pass
+
+# ------------------------------------------------
+# メイン
+# ------------------------------------------------
+def main():
+    print("=== Omega Monitor 起動 ===")
+    print(f"  確認間隔    : {INTERVAL}秒")
+    print(f"  出力ファイル: {OUTPUT_TXT}")
+    print("  'g' または Ctrl+G で movegramy.get_player_position を呼び出します。")
+    print("  Ctrl+C で停止\n")
+    time.sleep(1)
+
+    stop_event = threading.Event()
+
+    # 監視ループをバックグラウンドスレッドで開始
+    monitor_thread = threading.Thread(target=monitor_loop, args=(stop_event,), daemon=True)
+    monitor_thread.start()
+
+    # キーリスナーはメインスレッドでブロッキング実行（ここで Ctrl+C を受け取る）
+    start_key_listener(stop_event)
+
+    # キーリスナーが終了して stop_event が立ったら監視スレッドの終了を待つ
+    stop_event.set()
+    monitor_thread.join(timeout=3)
+    print("=== Omega Monitor 終了 ===")
 
 if __name__ == "__main__":
     main()

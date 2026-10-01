@@ -7,8 +7,8 @@ def get_player_position():
     
     try:
         # Fetch data from the game's environment endpoint
-        data = {"grammiUuid":"21fe121575c44008aa992403ddb8d192", "text":"リッキー先生超かっこいい", "timeOut": 60}
-        response = requests.post(f"{BASE_URL}/grammi/say", json=data)
+        data = {"grammiUuid":"21fe121575c44008aa992403ddb8d192", "message": "/settime 12", "timeOut": 60}
+        response = requests.post(f"{BASE_URL}/post-chat-message", json=data)
         if response.status_code == 200:
             position_data = response.json()
             print(f"Current Position: {position_data}")
